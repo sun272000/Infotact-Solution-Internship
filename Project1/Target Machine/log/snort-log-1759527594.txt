@@ -1,0 +1,296 @@
+Running in packet dump mode
+
+        --== Initializing Snort ==--
+Initializing Output Plugins!
+pcap DAQ configured to read-file.
+Acquiring network traffic from "/var/log/snort/snort.log.1759527594".
+
+        --== Initialization Complete ==--
+
+   ,,_     -*> Snort! <*-
+  o"  )~   Version 2.9.20 GRE (Build 82) 
+   ''''    By Martin Roesch & The Snort Team: http://www.snort.org/contact#team
+           Copyright (C) 2014-2022 Cisco and/or its affiliates. All rights reserved.
+           Copyright (C) 1998-2013 Sourcefire, Inc., et al.
+           Using libpcap version 1.10.4 (with TPACKET_V3)
+           Using PCRE version: 8.39 2016-06-14
+           Using ZLIB version: 1.3
+
+Commencing packet processing (pid=14875)
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+10/03-21:41:35.967629 192.168.56.104:48994 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:25887 IpLen:20 DgmLen:75 DF
+***AP*** Seq: 0x88CF859D  Ack: 0xD3A10FE0  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530940 3505546245 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.010521 192.168.56.104:48994 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:25889 IpLen:20 DgmLen:956 DF
+***AP*** Seq: 0x88CF85B4  Ack: 0xD3A1100B  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530983 3505546287 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:35.967313 192.168.56.104:48988 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:17186 IpLen:20 DgmLen:75 DF
+***AP*** Seq: 0x9FBB4D78  Ack: 0xFE2719F9  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530940 3505546244 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.011947 192.168.56.104:48988 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:17188 IpLen:20 DgmLen:956 DF
+***AP*** Seq: 0x9FBB4D8F  Ack: 0xFE271A24  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530985 3505546289 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:35.990411 192.168.56.104:48960 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:31538 IpLen:20 DgmLen:100 DF
+***AP*** Seq: 0xE8F5E320  Ack: 0x11CD0CB2  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530963 3505546267 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.000769 192.168.56.104:48960 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:31539 IpLen:20 DgmLen:68 DF
+***AP*** Seq: 0xE8F5E350  Ack: 0x11CD0E9E  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530973 3505546277 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.044972 192.168.56.104:48960 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:31540 IpLen:20 DgmLen:96 DF
+***AP*** Seq: 0xE8F5E360  Ack: 0x11CD0E9E  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531018 3505546322 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.045627 192.168.56.104:48960 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:31541 IpLen:20 DgmLen:128 DF
+***AP*** Seq: 0xE8F5E38C  Ack: 0x11CD0ECA  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531018 3505546323 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:35.988153 192.168.56.104:48966 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:28828 IpLen:20 DgmLen:100 DF
+***AP*** Seq: 0x41987BA4  Ack: 0x8BE6B7BB  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530961 3505546265 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:35.998550 192.168.56.104:48966 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:28829 IpLen:20 DgmLen:68 DF
+***AP*** Seq: 0x41987BD4  Ack: 0x8BE6B9A7  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530971 3505546275 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.044971 192.168.56.104:48966 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:28830 IpLen:20 DgmLen:96 DF
+***AP*** Seq: 0x41987BE4  Ack: 0x8BE6B9A7  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531018 3505546321 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.045628 192.168.56.104:48966 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:28831 IpLen:20 DgmLen:128 DF
+***AP*** Seq: 0x41987C10  Ack: 0x8BE6B9D3  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531019 3505546323 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.050118 192.168.56.104:48966 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:28832 IpLen:20 DgmLen:144 DF
+***AP*** Seq: 0x41987C5C  Ack: 0x8BE6BA07  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531023 3505546327 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.008844 192.168.56.104:48972 -> 192.168.56.10WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+WARNING: No preprocessors configured for policy 0.
+2:22
+TCP TTL:64 TOS:0x0 ID:16146 IpLen:20 DgmLen:100 DF
+***AP*** Seq: 0x99ED0152  Ack: 0xFC4BA307  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530982 3505546285 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.020771 192.168.56.104:48972 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:16147 IpLen:20 DgmLen:68 DF
+***AP*** Seq: 0x99ED0182  Ack: 0xFC4BA4F3  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530994 3505546297 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.060873 192.168.56.104:48972 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:16148 IpLen:20 DgmLen:96 DF
+***AP*** Seq: 0x99ED0192  Ack: 0xFC4BA4F3  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531034 3505546338 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.061298 192.168.56.104:48972 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:16149 IpLen:20 DgmLen:128 DF
+***AP*** Seq: 0x99ED01BE  Ack: 0xFC4BA51F  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531034 3505546338 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.012344 192.168.56.104:48994 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:25890 IpLen:20 DgmLen:100 DF
+***AP*** Seq: 0x88CF893C  Ack: 0xD3A1146B  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530985 3505546289 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.022577 192.168.56.104:48994 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:25891 IpLen:20 DgmLen:68 DF
+***AP*** Seq: 0x88CF896C  Ack: 0xD3A11657  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530995 3505546299 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.064355 192.168.56.104:48994 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:25892 IpLen:20 DgmLen:96 DF
+***AP*** Seq: 0x88CF897C  Ack: 0xD3A11657  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531037 3505546341 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.064956 192.168.56.104:48994 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:25893 IpLen:20 DgmLen:128 DF
+***AP*** Seq: 0x88CF89A8  Ack: 0xD3A11683  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531038 3505546342 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.069362 192.168.56.104:48994 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:25894 IpLen:20 DgmLen:144 DF
+***AP*** Seq: 0x88CF89F4  Ack: 0xD3A116B7  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531042 3505546346 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.013830 192.168.56.104:48988 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:17189 IpLen:20 DgmLen:100 DF
+***AP*** Seq: 0x9FBB5117  Ack: 0xFE271E84  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530987 3505546290 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.024664 192.168.56.104:48988 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:17190 IpLen:20 DgmLen:68 DF
+***AP*** Seq: 0x9FBB5147  Ack: 0xFE272070  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731530997 3505546301 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.065644 192.168.56.104:48988 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:17191 IpLen:20 DgmLen:96 DF
+***AP*** Seq: 0x9FBB5157  Ack: 0xFE272070  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531039 3505546343 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.066146 192.168.56.104:48988 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:17192 IpLen:20 DgmLen:128 DF
+***AP*** Seq: 0x9FBB5183  Ack: 0xFE27209C  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531039 3505546343 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+10/03-21:41:36.071372 192.168.56.104:48988 -> 192.168.56.102:22
+TCP TTL:64 TOS:0x0 ID:17193 IpLen:20 DgmLen:144 DF
+***===============================================================================
+Run time for packet processing was 0.398 seconds
+Snort processed 27 packets.
+Snort ran for 0 days 0 hours 0 minutes 0 seconds
+   Pkts/sec:           27
+===============================================================================
+Memory usage summary:
+  Total non-mmapped bytes (arena):       790528
+  Bytes in mapped regions (hblkhd):      22941696
+  Total allocated space (uordblks):      689168
+  Total free space (fordblks):           101360
+  Topmost releasable block (keepcost):   94720
+===============================================================================
+Packet I/O Totals:
+   Received:           27
+   Analyzed:           27 (100.000%)
+    Dropped:            0 (  0.000%)
+   Filtered:            0 (  0.000%)
+Outstanding:            0 (  0.000%)
+   Injected:            0
+===============================================================================
+Breakdown by protocol (includes rebuilt packets):
+        Eth:           27 (100.000%)
+       VLAN:            0 (  0.000%)
+        IP4:           27 (100.000%)
+       Frag:            0 (  0.000%)
+       ICMP:            0 (  0.000%)
+        UDP:            0 (  0.000%)
+        TCP:           27 (100.000%)
+        IP6:            0 (  0.000%)
+    IP6 Ext:            0 (  0.000%)
+   IP6 Opts:            0 (  0.000%)
+      Frag6:            0 (  0.000%)
+      ICMP6:            0 (  0.000%)
+       UDP6:            0 (  0.000%)
+       TCP6:            0 (  0.000%)
+     Teredo:            0 (  0.000%)
+    ICMP-IP:            0 (  0.000%)
+    IP4/IP4:            0 (  0.000%)
+    IP4/IP6:            0 (  0.000%)
+    IP6/IP4:            0 (  0.000%)
+    IP6/IP6:            0 (  0.000%)
+        GRE:            0 (  0.000%)
+    GRE Eth:            0 (  0.000%)
+   GRE VLAN:            0 (  0.000%)
+    GRE IP4:            0 (  0.000%)
+    GRE IP6:            0 (  0.000%)
+GRE IP6 Ext:            0 (  0.000%)
+   GRE PPTP:            0 (  0.000%)
+    GRE ARP:            0 (  0.000%)
+    GRE IPX:            0 (  0.000%)
+   GRE Loop:            0 (  0.000%)
+       MPLS:            0 (  0.000%)
+        ARP:            0 (  0.000%)
+        IPX:            0 (  0.000%)
+   Eth Loop:            0 (  0.000%)
+   Eth Disc:            0 (  0.000%)
+   IP4 Disc:            0 (  0.000%)
+   IP6 Disc:            0 (  0.000%)
+   TCP Disc:            0 (  0.000%)
+   UDP Disc:            0 (  0.000%)
+  ICMP Disc:            0 (  0.000%)
+All Discard:            0 (  0.000%)
+      Other:            0 (  0.000%)
+Bad Chk Sum:            0 (  0.000%)
+    Bad TTL:            0 (  0.000%)
+     S5 G 1:            0 (  0.000%)
+     S5 G 2:            0 (  0.000%)
+      Total:           27
+===============================================================================
+
+Memory Statistics for File at:Fri Oct  3 21:59:01 2025
+
+Total buffers allocated:           0          
+Total buffers freed:               0          
+Total buffers released:            0          
+Total file mempool:                0          
+Total allocated file mempool:      0          
+Total freed file mempool:          0          
+Total released file mempool:       0          
+
+Heap Statistics of file:
+          Total Statistics:
+               Memory in use:              0 bytes
+                No of allocs:              0
+                 No of frees:              0
+===============================================================================
+Snort exiting
+AP*** Seq: 0x9FBB51CF  Ack: 0xFE2720D0  Win: 0x204  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2731531044 3505546348 
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
