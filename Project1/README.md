@@ -1,4 +1,4 @@
-# NIDS Rule Creation and Testing Lab using Snort
+# Network Intrusion Detection System (NIDs) Rule Creation and Testing Lab using Snort
 
 [cite_start]This project demonstrates the setup of a virtualized lab to develop and test custom rules for a Network Intrusion Detection System (NIDS)[cite: 3]. [cite_start]The goal is to identify and flag a common SSH brute-force attack in real-time[cite: 3, 7]. [cite_start]The lab consists of an Ubuntu Server running Snort as the target machine and a Kali Linux virtual machine as the attacker[cite: 5, 10].
 
