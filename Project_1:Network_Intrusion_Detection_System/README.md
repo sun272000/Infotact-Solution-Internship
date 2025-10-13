@@ -1,7 +1,7 @@
 
 
 > [<u>**Project 1: NIDS Rule Creation and Testing Lab**
-> ♂️</u>]([https://tinyurl.com/t3v5x8t3](https://tinyurl.com/msp64m48))
+> ♂️</u>](https://tinyurl.com/msp64m48)
 
 **Network** **Intrusion** **Detection** **System** **(NIDS)** **Rule**
 **Creation** **and** **Testing** **Lab**
