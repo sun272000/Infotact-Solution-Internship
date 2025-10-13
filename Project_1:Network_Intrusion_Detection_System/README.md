@@ -1,7 +1,7 @@
 
 
 > [<u>**Project 1: NIDS Rule Creation and Testing Lab**
-> ♂️</u>](https://tinyurl.com/msp64m48)
+> ♂️</u>](https://tinyurl.com/waf7tw7d)
 
 **Network** **Intrusion** **Detection** **System** **(NIDS)** **Rule**
 **Creation** **and** **Testing** **Lab**
@@ -290,5 +290,6 @@ Check alerts (console or log):
 */var/log/syslog* *\|\|* *true*
 
                               Copyright@2025-Sandip Biswa (Employee ID: 1d0c5d2cb425) 
+
 
 
