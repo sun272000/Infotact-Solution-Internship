@@ -32,9 +32,10 @@ Lab</u>**](https://tinyurl.com/ym6dvf6n)
   minimizes the risk of web-based attacks.
 
 
+[**<u>Project 3 - Threat Intelligence Feed Processor and Anomaly Detector
+</u>**](https://tinyurl.com/mv6ajyhh) [**<u>Creation and Testing
+Lab</u>**](https://tinyurl.com/mv6ajyhh)
 
-**Project** **3** **-** **Threat** **Intelligence** **Feed**
-**Processor** **and** **Anomaly** **Detector**
 
   **Problem** **Statement:** Develop a system that automates the
   consumption of open-source threat intelligence (TI) feeds to detect
@@ -49,6 +50,7 @@ Lab</u>**](https://tinyurl.com/ym6dvf6n)
   simulated network or system logs to find matches, generating alerts for
   any suspicious activity, such as communication with a known
   command-and-control server.
+
 
 
 

@@ -4,7 +4,7 @@ import sqlite3
 
 #--- CONFIGURATION ---
 # IMPORTANT: PASTE YOUR ABUSEIPDB API KEY HERE
-API_KEY = 'f79817039c21acb71de0e5f3df54a89361ec797c5c400542b81cd1312d3ced3558b05d61b2802463'
+API_KEY = 'YOUR_API_KEY_HERE'
 DB_FILE = 'threat_intel.db'
 
 def setup_database():
