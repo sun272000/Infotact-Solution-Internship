@@ -1,6 +1,6 @@
 [**<u>Project 1 - Network Intrusion Detection System (NIDS)
-Rule</u>**](https://tinyurl.com/t3v5x8t3) [**<u>Creation and Testing
-Lab</u>**](https://tinyurl.com/t3v5x8t3)
+Rule</u>**](https://tinyurl.com/ym6dvf6n) [**<u>Creation and Testing
+Lab</u>**](https://tinyurl.com/ym6dvf6n)
 
   **Problem** **Statement:** Develop and test a robust set of custom rules
   for a Network Intrusion Detection System (NIDS) to identify and flag
@@ -49,5 +49,6 @@ Lab</u>**](https://tinyurl.com/t3v5x8t3)
   simulated network or system logs to find matches, generating alerts for
   any suspicious activity, such as communication with a known
   command-and-control server.
+
 
 
