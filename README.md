@@ -45,11 +45,11 @@ Lab</u>**](https://tinyurl.com/mv6ajyhh)
   **Use** **Case:** Build a Python-based tool that runs on a schedule,
   fetches the latest threat data (malicious IPs, domains, file hashes)
   from public feeds like AbuseIPDB and AlienVault OTX,
-  
   and stores it locally. The tool will then compare these IOCs against
   simulated network or system logs to find matches, generating alerts for
   any suspicious activity, such as communication with a known
   command-and-control server.
+
 
 
 
