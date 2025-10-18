@@ -1,6 +1,4 @@
-<img src="./voj0hytw.png" style="width:6.5in;height:3.41667in" />
-
-> **Project** **3:** **Threat** **Intel** **Processor**
+**Project** **3:** **Threat** **Intel** **Processor**
 
 This guide explains how to build a Python script that fetches malicious
 IPs from the **AbuseIPDB** threat feed and checks them against a sample
@@ -27,9 +25,9 @@ Database)
 >
 > **cybermonk@myLap:~** **\$** *pip* *install* *requests*
 
-Sandip Biswa (Employee ID: 1d0c5d2cb425) page 1
 
-<img src="./sl0fcfnk.png" style="width:6.5in;height:3.38542in" />
+
+<img src="./assets/sl0fcfnk.png" style="width:6.5in;height:3.38542in" />
 
 > b\. Get an AbuseIPDB API key: (Steps in
 > [**<u>Annexure-1</u>**](https://tinyurl.com/36w7td5n))
@@ -59,9 +57,9 @@ We'll create a new file, for example,
 script will be changed to read every line from this file and use it to
 build the access.log for testing.
 
-Sandip Biswa (Employee ID: 1d0c5d2cb425) page 2
 
-<img src="./ops4jiih.png" style="width:6.5in;height:3.34375in" /><img src="./ine5dkhs.png" style="width:6.5in;height:1.30208in" />
+
+<img src="./assets/ops4jiih.png" style="width:6.5in;height:3.34375in" /><img src="./assets/ine5dkhs.png" style="width:6.5in;height:1.30208in" />
 
 > **How** **It** **Works** **Now** ✅
 
@@ -86,9 +84,9 @@ Your workflow is now much simpler:
 >
 > **cybermonk@myLap:~** **\$** *python3* *threat_checker.py*
 
-Sandip Biswa (Employee ID: 1d0c5d2cb425) page 3
 
-<img src="./g0ouphvn.png"
+
+<img src="./assets/g0ouphvn.png"
 style="width:6.375in;height:2.04167in" />
 
 > b\. **Analyze** **the** **Output:** The script will first print that
@@ -117,9 +115,9 @@ Now we'll add the scheduled task to your user's "crontab" file.
 > /home/cybermonk/threat_checker.py \>\>
 > /home/cybermonk/threat_checker.log 2\>&1
 
-Sandip Biswa (Employee ID: 1d0c5d2cb425) page 4
 
-<img src="./tjyyh5t1.png"
+
+<img src="./assets/tjyyh5t1.png"
 style="width:5.57292in;height:4.02083in" />
 
 > **c.** **Save** **and** **Exit:**
@@ -128,4 +126,5 @@ style="width:5.57292in;height:4.02083in" />
 > confirm, and ***Enter*** to save. You should see a message like
 > crontab: *installing* *new* *crontab.*
 
-Sandip Biswa (Employee ID: 1d0c5d2cb425) page 5
+
+
