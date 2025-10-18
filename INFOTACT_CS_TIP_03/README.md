@@ -1,4 +1,5 @@
-**Project** **3:** **Threat** **Intel** **Processor**
+> [<u>**Project 3: Threat Intel Processor**
+> ♂️</u>](https://tinyurl.com/waf7tw7d)
 
 This guide explains how to build a Python script that fetches malicious
 IPs from the **AbuseIPDB** threat feed and checks them against a sample
@@ -125,6 +126,7 @@ style="width:5.57292in;height:4.02083in" />
 > In **nano,** press ***Ctrl*** ***+*** ***X,*** then ***Y*** to
 > confirm, and ***Enter*** to save. You should see a message like
 > crontab: *installing* *new* *crontab.*
+
 
 
 
