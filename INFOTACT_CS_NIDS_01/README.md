@@ -174,7 +174,7 @@ running.
 **Note:**
 
 > Thanks here— the missing
-> [***<u>/var/log/snort/alert</u>***](https://tinyurl.com/4j28sj4u)
+> [***<u>/var/log/snort/alert</u>***](https://tinyurl.com/3bdckkza)
 > tells us Snort isn’t writing alerts to that file (either it’s logging
 > elsewhere, running only in the console, or the log
 > directory/permissions aren’t correct). Let’s fix and verify
@@ -290,6 +290,7 @@ Check alerts (console or log):
 */var/log/syslog* *\|\|* *true*
 
                               Copyright@2025-Sandip Biswa (Employee ID: 1d0c5d2cb425) 
+
 
 
 
