@@ -83,7 +83,7 @@ Note:
 > ***1000000***.
 >
 > **cybermonk@myLap:~\$** *sudo* *vim*
-> [*<u>/etc/snort/rules/local.rules</u>*](https://tinyurl.com/bvdzd7bd)
+> [*<u>/etc/snort/rules/local.rules</u>*](https://tinyurl.com/yc3y3899)
 
 
 
@@ -101,7 +101,7 @@ Validate Snort config:
 
 > **cybermonk@myLap:~\$** *sudo* *snort* *-T* *-c*
 > */etc/snort/snort.conf* *\>*
-> */home/cybermonk*[*<u>/snort_test_output.txt</u>*](https://tinyurl.com/p8vdvpsp)
+> */home/cybermonk*[*<u>/snort_test_output.txt</u>*](https://tinyurl.com/ywzhv7mm)
 > *2\>&1*
 
 **Step** **3:** **Test** **the** **Rule**
@@ -226,17 +226,17 @@ Leave this terminal open — alerts will appear live.
 **Step** **4.** **Perform** **the** **Attack** **(Kali** **Machine):**
 
 a\. Script (save on attacker VM as
-[**<u>run_nids_tests.sh</u>**](https://tinyurl.com/3s3bcb2r))
+[**<u>run_nids_tests.sh</u>**](https://tinyurl.com/yat2p87x))
 
 On your **attacker** **(Kali)** machine run the following commands to
 make the correct script, make it executable, and run it. (This writes a
 single file
-[<u>/***home/kali/run_nids_tests.sh.***</u>](https://tinyurl.com/3s3bcb2r))
+[<u>/***home/kali/run_nids_tests.sh.***</u>](https://tinyurl.com/yat2p87x))
 
 
 
 This will create
-[***<u>/home/kali/run_nids_tests.sh</u>***](https://tinyurl.com/3s3bcb2r)
+[***<u>/home/kali/run_nids_tests.sh</u>***](https://tinyurl.com/yat2p87x)
 with the full content and make it executable.
 
 **b.** **Check** **the** **file** **:** **──(kali**㉿**kali)-\[~\]**
@@ -290,6 +290,7 @@ Check alerts (console or log):
 */var/log/syslog* *\|\|* *true*
 
                               Copyright@2025-Sandip Biswa (Employee ID: 1d0c5d2cb425) 
+
 
 
 
